@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Kaminari - NextJS TailwindCSS Starter Template</title>
+      <title>sooraj / singh | home</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width" />
       <meta name="description" content="NextJS TailwindCSS Starter Template" />

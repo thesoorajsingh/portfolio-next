@@ -18,13 +18,13 @@ export default function Hero() {
         <div className="px-2 text-left">
           <div className="pl-6 pb-4">
             <h4
-              className="leading-tighter my-4 mx-auto max-w-2xl text-xl font-extrabold tracking-tighter md:text-xl"
+              className="leading-tighter my-4 mx-auto max-w-2xl text-xl font-extrabold tracking-wide md:text-xl"
               data-aos="zoom-y-out"
             >
               Hi, my name is{" "}
             </h4>
             <h1>
-              <span className="leading-tighter my-4 mx-auto max-w-2xl bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-5xl font-extrabold tracking-tighter text-transparent ">
+              <span className="leading-tighter my-4 mx-auto max-w-2xl bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text font-playfair text-5xl font-extrabold tracking-normal text-transparent ">
                 Sooraj Singh.
               </span>
             </h1>
@@ -47,7 +47,7 @@ export default function Hero() {
               </svg>
               fast
             </span> */}
-          <p className="mx-auto max-w-xl px-2 pb-6 text-left font-grotesk text-lg font-medium text-gray-one md:max-w-2xl md:px-6">
+          <p className="mx-auto max-w-xl px-2 pb-6 text-left font-grotesk text-lg font-medium tracking-normal text-gray-one md:max-w-2xl md:px-6">
             I&apos;m a software engineer specializing in building and sometimes
             designing exceptional software.
             <br /> I&apos;m currently enabling India to invest like the top 1%

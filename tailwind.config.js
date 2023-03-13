@@ -34,6 +34,8 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", ...fontFamily.sans],
         grotesk: ["Space Grotesk", ...fontFamily.sans],
+        playfair: ["Playfair Display", ...fontFamily.serif],
+        raleway: ["Raleway", fontFamily.sans],
       },
       backgroundImage: ({ theme }) => ({
         "vc-border-gradient": `radial-gradient(at left top, ${theme(
