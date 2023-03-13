@@ -22,6 +22,7 @@ module.exports = {
         "gray-1000": "#0D0D0D",
         "gray-1001": "#161616",
         "gray-1002": "#212121",
+        "green-primary": "#1ca76d",
         gray: {
           ...colors.zinc,
           one: "#a5a5a5",

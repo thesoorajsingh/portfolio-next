@@ -45,7 +45,9 @@ export default function Header({ items, children }: MainNavProps) {
             <Link className="hidden items-center space-x-2 md:flex" href="/">
               <Icons.logo />
 
-              <span className="hidden font-bold sm:inline-block">Kaminari</span>
+              <span className="hidden font-bold sm:inline-block">
+                sooraj / singh
+              </span>
             </Link>
 
             <button
@@ -87,7 +89,7 @@ export default function Header({ items, children }: MainNavProps) {
             />
           </nav> */}
           <a
-            href="https://github.com/lucky-chap/kaminari"
+            href="https://github.com/thesoorajsingh"
             target="_blank"
             rel="noreferrer"
             className="group rounded bg-gray-1000 p-2 transition-colors duration-100 ease-linear hover:bg-gray-1001"

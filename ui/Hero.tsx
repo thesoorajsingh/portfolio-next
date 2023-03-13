@@ -15,25 +15,21 @@ export default function Hero() {
           width={1400}
           loading="lazy"
         />
-        <div className="px-2">
-          {/* badge */}
-          {/* <div className="mx-auto flex max-w-[15rem] cursor-pointer items-center justify-around rounded-3xl bg-gray-100 p-2 text-center text-black transition-all duration-100 ease-linear hover:bg-gray-200">
-            <Image src={rocketImage} width={20} height={20} alt="rocket" />
-            <p className="text-sm font-light text-zinc-400">
-              #1 Next.js Starter Template
-            </p>
-          </div> */}
-          {/* text */}
-
-          <h1
-            className="leading-tighter my-4 mx-auto max-w-2xl text-5xl font-extrabold tracking-tighter md:text-6xl"
-            data-aos="zoom-y-out"
-          >
-            Move from development to{" "}
-            <span className="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-              production,
-            </span>
-            <span className="relative inline-block bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text pl-2 pr-5 italic text-transparent">
+        <div className="px-2 text-left">
+          <div className="pl-6 pb-4">
+            <h4
+              className="leading-tighter my-4 mx-auto max-w-2xl text-xl font-extrabold tracking-tighter md:text-xl"
+              data-aos="zoom-y-out"
+            >
+              Hi, my name is{" "}
+            </h4>
+            <h1>
+              <span className="leading-tighter my-4 mx-auto max-w-2xl bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-5xl font-extrabold tracking-tighter text-transparent ">
+                Sooraj Singh.
+              </span>
+            </h1>
+          </div>
+          {/* <span className="relative inline-block bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text pl-2 pr-5 italic text-transparent">
               <svg
                 width="68"
                 height="5"
@@ -50,13 +46,19 @@ export default function Hero() {
                 />
               </svg>
               fast
+            </span> */}
+          <p className="mx-auto max-w-xl px-2 pb-6 text-left font-grotesk text-lg font-medium text-gray-one md:max-w-2xl md:px-6">
+            I&apos;m a software engineer specializing in building and sometimes
+            designing exceptional software.
+            <br /> I&apos;m currently enabling India to invest like the top 1%
+            do @{" "}
+            <span className="underline underline-offset-4 hover:cursor-pointer hover:text-green-primary">
+              <a href="https://leafround.com" target="_blank" rel="noreferrer">
+                Leaf Round
+              </a>
             </span>
-          </h1>
-          <p className="mx-auto max-w-xl px-2 pb-6 font-grotesk text-lg font-medium text-gray-one md:max-w-2xl md:px-6">
-            Power packed, no nonsense, production-ready Next.js starter template
-            to get you up to speed in your next project.
           </p>
-          <div
+          {/* <div
             className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
             data-aos="zoom-y-out"
             data-aos-delay="300"
@@ -81,7 +83,7 @@ export default function Hero() {
                 Star ✨
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </section>
